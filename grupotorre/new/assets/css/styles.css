@@ -1,0 +1,52 @@
+@import url('./cabecalho.css');
+@import url('./conteudo.css');
+@import url('./carrossel.css');
+@import url('./quem-somos.css');
+@import url('./servicos.css');
+@import url('./contato.css');
+@import url('./formulario.css');
+@import url('./rodape.css');
+
+@font-face {
+    src: url('../font/DINCond-BlackAlternate.otf');
+    font-family: 'DINCond';
+    font-weight: normal;
+}
+
+:root {
+    --cor-de-fundo: #f8f8f8 ;
+    --azul-fundo: #0d5866;
+    --azul-fundo-opaco: #0d596690;
+    --branco: #fdfdfd;
+    --preto: #151515;
+    --cinza: #cacaca;
+    --cinza-escuro: #686868;
+    --fonte-titulo: 'DINCond';
+    --fonte-texto: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--preto);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.carrossel__imagem {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--cinza);
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--azul-fundo);
+}

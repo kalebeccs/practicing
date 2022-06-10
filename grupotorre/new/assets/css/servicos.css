@@ -1,0 +1,24 @@
+.servicos {
+    border-top: 1px solid var(--cinza);
+    padding: 3em 1em 1.5em 1em;
+}
+
+.servicos__titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.servicos__subtitulo {
+    font-size: 24px;
+    margin-bottom: .25rem;
+    color: var(--azul-fundo);
+}
+
+.servicos__descricao {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,27 @@
+.quem-somos {
+    padding: 2rem 1rem;
+}
+
+.quem-somos__imagem {
+    width: 100%;
+}
+
+.quem-somos__titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.quem-somos__subtitulo {
+    font-size: 24px;
+    margin-bottom: .25rem;
+    color: var(--azul-fundo);
+}
+
+.quem-somos__descricao {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+}
